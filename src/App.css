@@ -1,0 +1,40 @@
+li{
+    list-style-type: none;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    
+    display:inline;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
+.nav-bg{
+    background-color: black;
+    padding-block: 10px;
+}
+ul{
+    text-align:center;
+}
+.imgMain{
+    align-self: center;
+    height: 50px;
+    width: 500px;
+}
+
+.filterLayout{
+    flex-direction: column;
+    display: flex;
+    gap: 2px;
+    align-items: flex-end;
+}
+
+select{
+    font:inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1 px solid #ccc;
+    width: 10rem;
+    max-width: 100%; 
+}
