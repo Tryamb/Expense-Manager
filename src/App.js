@@ -4,7 +4,7 @@ import NewExpense from './Components/NewExpense/NewExpense'
 import Expenses from './Components/Expenses/Expenses'
 import TotalExpense from './Components/Expenses/TotalExpense';
 function App(){
-    const API_URL=process.env.API_ENV;
+    const API_URL="";
     const dummyexpense=[
         
     ];
